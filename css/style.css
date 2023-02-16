@@ -1,0 +1,58 @@
+/* Author: Sabarinath G */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name,
+span {
+    font-weight: bold;
+}
+
+.container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(246, 243, 240);
+    border-top: solid 4px rgb(226, 51, 32);
+    min-height: 100vh;
+    font-size: small;
+}
+
+.container p {
+    color: #7e7474;
+}
+
+.image-2 img {
+    width: 4%;
+    margin-top: 40px;
+}
+
+.port img:hover {
+    transform: scale(1.5);
+}
+
+.get {
+    background-color: #e4e2e2;
+    border: 0;
+    margin-top: 25px;
+}
+
+.sub input {
+    background-color: orangered;
+    color: white;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 850px) {
+    .content {
+        margin: 0;
+    }
+    .a {
+        text-align: center !important;
+        color: black;
+        font-weight: 700;
+        font-size: larger;
+    }
+}
